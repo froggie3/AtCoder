@@ -1,5 +1,4 @@
 <?php
-
 // One line input 
 
 # fscanf 
@@ -10,7 +9,6 @@
 # str_split 
 #$array = array_map('intval', str_split(trim(fgets(STDIN))));
 
-print_r($ln);
 // output
 
 #print_r($a);
