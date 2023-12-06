@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 
-# q = [[*map(int, input().split())] for i in range(N)]
-# A = [*map(int, input().split())]
-# N, M = map(int, input().split())
-# N = int(input())
+# import heapq, collections, itertools, bisect, pprint
+# from math import *
 
-from collections import *  # Counter, deque, defaultdict
-from itertools import *  # accumulate, permutations, combinations, product
-from bisect import *  # bisect, bisect_left, bisect_right
-from pprint import *
-from math import *  # sin, cos, factorial
+# N = int(input())
+# S = input()
+# N, M = [int(x) for x in input().split()]
+# A = [int(x) for x in input().split()]
+
+# q = [[int(x) for x in input().split()] for i in range(N)]
+# S = [input() for i in range(N)]
+

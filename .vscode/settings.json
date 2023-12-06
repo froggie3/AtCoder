@@ -14,7 +14,7 @@
     "terminal.integrated.cursorWidth": 2,
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8",
-        "editor.formatOnType": true
+        "editor.formatOnType": true,
     },
     "editor.stickyScroll.enabled": true,
     "editor.guides.bracketPairs": true,
@@ -27,7 +27,38 @@
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
     "C_Cpp.autocompleteAddParentheses": true,
-    "C_Cpp.clang_format_style": "WebKit",
     "files.autoSave": "afterDelay",
-    "editor.indentSize": "tabSize"
+    "editor.indentSize": "tabSize",
+    "files.associations": {
+        "*.pyscript": "python",
+        "any": "cpp",
+        "array": "cpp",
+        "*.tcc": "cpp",
+        "forward_list": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "memory": "cpp",
+        "optional": "cpp",
+        "string_view": "cpp",
+        "fstream": "cpp",
+        "future": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "shared_mutex": "cpp",
+        "sstream": "cpp",
+        "stop_token": "cpp",
+        "streambuf": "cpp",
+        "syncstream": "cpp",
+        "thread": "cpp",
+        "functional": "cpp",
+        "regex": "cpp",
+        "tuple": "cpp",
+        "valarray": "cpp",
+        "variant": "cpp"
+    },
+    "autopep8.args": [
+        //"--ignore=E302",
+        //"--ignore=E501"
+    ]
 }
